@@ -2,7 +2,7 @@ root:*::
 daemon:*::
 bin:*::
 sys:*::
-adm:*::syslog,ubuntu
+adm:*::syslog
 tty:*::
 disk:*::
 lp:*::
@@ -15,12 +15,12 @@ kmem:*::
 dialout:*::
 fax:*::
 voice:*::
-cdrom:*::ubuntu
+cdrom:*::
 floppy:*::
 tape:*::
-sudo:*::ubuntu
+sudo:*::
 audio:*::
-dip:*::ubuntu
+dip:*::
 www-data:*::
 backup:*::
 operator:*::
@@ -32,7 +32,7 @@ shadow:*::
 utmp:*::
 video:*::
 sasl:*::
-plugdev:*::ubuntu
+plugdev:*::
 staff:*::
 games:*::
 users:*::
@@ -46,7 +46,7 @@ input:!::
 sgx:!::
 kvm:!::
 render:!::
-lxd:!::ubuntu
+lxd:!::
 _ssh:!::
 crontab:!::
 syslog:!::
@@ -55,4 +55,5 @@ tcpdump:!::
 tss:!::
 landscape:!::
 fwupd-refresh:!::
-ubuntu:!::
+ssl-cert:!::
+postfix:!::
